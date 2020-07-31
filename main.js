@@ -1,17 +1,31 @@
+// 5. MySQL로 상세보기 구현
+
 const express = require('express'); // module 읽어오기
 const fs = require('fs');
 const app = express();
 const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
 const topicRouter = require('./routes/topic');
+const mysql = require('mysql');
+var db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'mysqlpass',
+  database: 'opentutorials'
+});
+db.connect();
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.get('*', function(request, response, next){
-  fs.readdir('./data', function (error, filelist) {
-    request.list = filelist;
+  // fs.readdir('./data', function (error, filelist) {
+  //   request.list = filelist;
+  //   next();
+  // });
+  db.query(`SELECT * FROM topic`, function(error, topics){
+    request.list = topics;
     next();
-  });
+  })
 })
 app.use('/', indexRouter);
 app.use('/topic', topicRouter);
