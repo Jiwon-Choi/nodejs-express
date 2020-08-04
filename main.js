@@ -18,14 +18,14 @@ db.connect();
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.get('*', function(request, response, next){
-  // fs.readdir('./data', function (error, filelist) {
-  //   request.list = filelist;
-  //   next();
-  // });
-  db.query(`SELECT * FROM topic`, function(error, topics){
-    request.list = topics;
+  fs.readdir('./data', function (error, filelist) {
+    request.list = filelist;
     next();
-  })
+  });
+  // db.query(`SELECT * FROM topic`, function(error, topics){
+  //   request.list = topics;
+  //   next();
+  // })
 })
 app.use('/', indexRouter);
 app.use('/topic', topicRouter);
