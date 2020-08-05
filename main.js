@@ -6,27 +6,28 @@ const app = express();
 const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
 const topicRouter = require('./routes/topic');
-const mysql = require('mysql');
-var db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'mysqlpass',
-  database: 'opentutorials'
-});
-db.connect();
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.get('*', function(request, response, next){
-  fs.readdir('./data', function (error, filelist) {
-    request.list = filelist;
-    next();
-  });
-  // db.query(`SELECT * FROM topic`, function(error, topics){
-  //   request.list = topics;
+  // fs.readdir('./data', function (error, filelist) {
+  //   request.list = filelist;
   //   next();
-  // })
+  // });
+
+  fs.readFile('./data/todos.json', 'utf8', (error, jsonFile) => {
+    if (error) return console.log(error);
+
+    const jsonData = JSON.parse(jsonFile);
+    request.list = jsonData;
+    next();
+
+    // jsonData.forEach(todo => {
+    //   console.log(todo);
+    // });
+  });
 })
+
 app.use('/', indexRouter);
 app.use('/topic', topicRouter);
 
@@ -39,4 +40,4 @@ app.use(function(err, req, res, next) {
   res.status(500).send('Something broke!');
 })
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(3001, () => console.log('Example app listening on port 3001!'));

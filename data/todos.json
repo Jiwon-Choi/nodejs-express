@@ -1,0 +1,98 @@
+[
+  {
+      "category" : "교육",
+      "company" : "멋쟁이 사자처럼",
+      "img_name" : "likelion",
+      "title" : "likelion",
+      "abstract" : "코드라이언 교육 코스 30% 할인",
+      "text" : ""
+  },
+  {
+      "category" : "교육",
+      "company" : "구름",
+      "img_name" : "goorm",
+      "title" : "goorm",
+      "abstract" : "구름EDU 전용 채널 및 쿠폰, IDE 유료 플랜 제공",
+      "text" : ""
+  },
+  {
+      "category" : "전문지식",
+      "company" : "법무법인 비트",
+      "img_name" : "veat",
+      "title" : "veat",
+      "abstract" : "오피스아워 제공, 계약서 키트 제공 등",
+      "text" : ""
+  },
+  {
+      "category" : "IT기기",
+      "company" : "레노버코리아",
+      "img_name" : "lenovo",
+      "title": "lenovo",
+      "abstract" : "레노버 기기 할인",
+      "text" : "42 SEOUL만의 특별한 구매혜택 2가지<br>- PC 18% 할인 : 전용 할인 혜택으로 최대 18% 할인 받으세요!<br>- 기사님 현장방문 : 수리기사님이 직접 방문하는 3년 방문 보증 5만원!<br>"
+  },
+  {
+      "category" : "협업툴",
+      "company" : "잔디",
+      "img_name" : "jandi",
+      "title": "jandi",
+      "abstract" : "협업툴 잔디 프리미엄 플랜 1년 무상 지원",
+      "text" : ""
+  },
+  {
+      "category" : "교육",
+      "company" : "모두의연구소",
+      "img_name" : "modu",
+      "title": "모두의연구소",
+      "abstract" : "모두의연구소 멤버십 할인",
+      "text" : ""
+  },
+  {
+      "category" : "교육",
+      "company" : "메가존아이티평생교육원",
+      "img_name" : "megazone",
+      "title": "megazone",
+      "abstract" : "학점은행제 서비스 50% 할인",
+      "text" : "- 학점은행제 기반의 학습자 중심 서비스<br>- 전문화된 학습 플래너! 1:1 학습자 관리 서비스<br>- 누구나 부담없이 다가올 수 있는 서비스<br>"
+  },
+  {
+      "category" : "모빌리티",
+      "company" : "피유엠피",
+      "img_name" : "pump",
+      "title": "pump",
+      "abstract" : "킥보드 씽씽 이용권 할인",
+      "text" : ""
+  },
+  {
+      "category" : "교육",
+      "company" : "코드잇",
+      "img_name" : "codeit",
+      "title": "code it",
+      "abstract" : "교육 콘텐츠 할인",
+      "text" : ""
+  },
+  {
+      "category" : "교육",
+      "company" : "솔트룩스",
+      "img_name" : "saltlux",
+      "title": "saltlux",
+      "abstract" : "교육 콘텐츠 할인",
+      "text" : "42SEOUL 교육생을 위한 인공지능/데이터과학 홈 튜터링 특별 할인 프로모션<br>- 최대 200만원 교육비 지원<br>- 100% 온라인 강의<br>- 1:1 AI 전문가 튜터<br>- Southampton 인증서 발급<br>"
+  },
+  {
+      "category" : "라이프스타일",
+      "company" : "준오헤어",
+      "img_name" : "junohair",
+      "title": "juno hair",
+      "abstract" : "강남 3개 지점 비용 할인",
+      "text" : ""
+  },
+  {
+      "category" : "라이프스타일",
+      "company" : "켄싱턴호텔&리조트",
+      "img_name" : "kensington",
+      "title": "kensington",
+      "abstract" : "전지점 특가 패키지 제공",
+      "text" : ""
+  }
+]
