@@ -1,0 +1,110 @@
+[
+  {
+    "id" : "likelion",
+    "title" : "멋쟁이사자처럼",
+    "abstract" : "코드라이언 교육 코스 30% 할인",
+    "text" : ""
+  },
+  {
+    "id" : "goorm",
+    "title" : "구름",
+    "abstract" : "구름EDU 전용 채널 및 쿠폰, IDE 유료 플랜 제공",
+    "text" : ""
+  },
+  {
+    "id" : "comcom",
+    "title" : "커먼컴퓨터",
+    "abstract" : "AI 프로젝트 간편 배포 솔루션 및 기술지원 제공",
+    "text" : ""
+  },
+  {
+    "id" : "saltlux",
+    "title" : "솔트룩스",
+    "abstract" : "인공지능/데이터과학 홈 튜터링 교육비 200만원 지원",
+    "text" : ""
+  },
+  {
+    "id" : "megazone",
+    "title" : "메가존아이티평생교육원",
+    "abstract" : "학점은행제 서비스 50% 할인",
+    "text" : ""
+  },
+  {
+    "id" : "spoons",
+    "title" : "러닝스푼즈",
+    "abstract" : "온오프라인 클래스 30% 할인권 제공",
+    "text" : ""
+  },
+  {
+    "id" : "collabee",
+    "title" : "콜라비",
+    "abstract" : "올인원 협업툴 콜라비 6개월 크레딧 제공",
+    "text" : ""
+  },
+  {
+    "id" : "codeit",
+    "title" : "코드잇",
+    "abstract" : "무제한 멤버십 수강권 15% 할인",
+    "text" : ""
+  },
+  {
+    "id" : "veat",
+    "title" : "법무법인 비트",
+    "abstract" : "오피스아워 제공, 계약서 키트 제공 등",
+    "text" : ""
+  },
+  {
+    "id" : "lenovo",
+    "title" : "레노버코리아",
+    "abstract" : "레노버 기기 할인",
+    "text" : ""
+  },
+  {
+    "id" : "jandi",
+    "title" : "잔디",
+    "abstract" : "협업툴 잔디 프리미엄 플랜 1년 무상 지원",
+    "text" : ""
+  },
+  {
+    "id" : "modu",
+    "title" : "모두의연구소",
+    "abstract" : "모두의연구소 멤버십 할인",
+    "text" : ""
+  },
+  {
+    "id" : "junohair",
+    "title" : "준오헤어",
+    "abstract" : "강남 베스트 지점 시술비 15% 할인",
+    "text" : ""
+  },
+  {
+    "id" : "kensington",
+    "title" : "켄싱턴호텔&리조트",
+    "abstract" : "전지점 특가 패키지 제공",
+    "text" : ""
+  },
+  {
+    "id" : "greencar",
+    "title" : "그린카",
+    "abstract" : "카셰어링 10% 할인 이용 혜택",
+    "text" : ""
+  },
+  {
+    "id" : "pump",
+    "title" : "피유엠피",
+    "abstract" : "킥보드 씽씽 이용권 할인",
+    "text" : ""
+  },
+  {
+    "id" : "goto",
+    "title" : "GOTO 피트니스",
+    "abstract" : "피트니스&골프 멤버십 할인 제공",
+    "text" : ""
+  },
+  {
+    "id" : "medical",
+    "title" : "서울메디컬네트워크",
+    "abstract" : "비급여 의료비 최대 49% 할인 혜택 제공",
+    "text" : ""
+  }
+]
