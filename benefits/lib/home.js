@@ -215,6 +215,8 @@ module.exports = function (program_info, partner_info, modal) {
       <script src="assets/mail/contact_me.js"></script>
       <!-- Core theme JS-->
       <script src="javascripts/scripts.js"></script>
+
+      <script src="javascripts/cadet.js"></script>
     
     </body>
     </html>
