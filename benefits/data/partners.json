@@ -3,7 +3,8 @@
     "id" : "likelion",
     "title" : "멋쟁이사자처럼",
     "abstract" : "코드라이언 교육 코스 30% 할인",
-    "text" : ""
+    "text" : "",
+    "extension" : "png"
   },
   {
     "id" : "goorm",
