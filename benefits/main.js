@@ -19,8 +19,6 @@ app.get('*', function(request, response, next){
     if (error) return console.log(error);
     const jsonData = JSON.parse(jsonFile);
     request.partners_json = jsonData;
-
-    console.log(jsonData);
     next();
   });
 })

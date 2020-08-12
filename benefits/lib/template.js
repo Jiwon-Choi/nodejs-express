@@ -1,5 +1,3 @@
-const { json } = require("body-parser");
-
 module.exports = {
   program_info: function (jsonfile) {
     var program_grid = '';
@@ -47,12 +45,36 @@ module.exports = {
     var modal = '';
 
     jsonfile.forEach(i => {
+      var joinText = '';
+      i.text.forEach(j => {
+        joinText += j;
+        joinText += '<br>';
+      })
       modal += `
         <div class="portfolio-modal modal fade" id="portfolio-${i.id}" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-              <div id="${i.id}-html"></div>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <!-- Project Details Go Here-->
+                      <h2 class="text-uppercase">${i.title}</h2>
+                      <p class="item-intro text-muted">${i.abstract}</p>
+                      <p class="text-break" style="text-align: left;">${joinText}</p>
+                    </div>
+                  </div>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/${i.id}-portfolio.jpg" alt="" />
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <button class="btn btn-primary" data-dismiss="modal" type="button">
+                        <i class="fas fa-undo mr-1"></i>return
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

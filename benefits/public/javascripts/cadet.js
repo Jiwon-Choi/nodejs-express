@@ -3,53 +3,53 @@ var cadet = true;
 $(document).ready(function () {
   if (cadet == true) {
     $('#likelion').click(function () {
-      $('#likelion-html').load('../data/portfolio/likelion.html');
+      $('#likelion-html').load('./assets/html/likelion.html');
     });
     $('#codeit').click(function () {
-      $('#codeit-html').load('./portfolio/codeit.html');
+      $('#codeit-html').load('./assets/html/codeit.html');
     });
     $('#collabee').click(function () {
-      $('#collabee-html').load('./portfolio/collabee.html');
+      $('#collabee-html').load('./assets/html/collabee.html');
     });
     $('#comcom').click(function () {
-      $('#comcom-html').load('./portfolio/comcom.html');
+      $('#comcom-html').load('./assets/html/comcom.html');
     });
     $('#goorm').click(function () {
-      $('#goorm-html').load('./portfolio/goorm.html');
+      $('#goorm-html').load('./assets/html/goorm.html');
     });
     $('#jandi').click(function () {
-      $('#jandi-html').load('./portfolio/jandi.html');
+      $('#jandi-html').load('./assets/html/jandi.html');
     });
     $('#junohair').click(function () {
-      $('#junohair-html').load('./portfolio/junohair.html');
+      $('#junohair-html').load('./assets/html/junohair.html');
     });
     $('#kensington').click(function () {
-      $('#kensington-html').load('./portfolio/kensington.html');
+      $('#kensington-html').load('./assets/html/kensington.html');
     });
     $('#lenovo').click(function () {
-      $('#lenovo-html').load('./portfolio/lenovo.html');
+      $('#lenovo-html').load('./assets/html/lenovo.html');
     });
     $('#medical').click(function () {
-      $('#medical-html').load('./portfolio/medical.html');
+      $('#medical-html').load('./assets/html/medical.html');
     });
     $('#megazone').click(function () {
-      $('#megazone-html').load('./portfolio/megazone.html');
+      $('#megazone-html').load('./assets/html/megazone.html');
     });
     $('#pump').click(function () {
-      $('#pump-html').load('./portfolio/pump.html');
+      $('#pump-html').load('./assets/html/pump.html');
     });
     $('#saltlux').click(function () {
-      $('#saltlux-html').load('./portfolio/saltlux.html');
+      $('#saltlux-html').load('./assets/html/saltlux.html');
     });
     $('#spoons').click(function () {
-      $('#spoons-html').load('./portfolio/spoons.html');
+      $('#spoons-html').load('./assets/html/spoons.html');
     });
     $('#example').click(function () {
-      $('#example-html').load('./portfolio/example.html');
+      $('#example-html').load('./assets/html/example.html');
     });
   } else {
     $('#likelion, #codeit').click(function () {
-      $('#likelion-html, #codeit-html').load('./portfolio/public.html');
+      $('#likelion-html, #codeit-html').load('./assets/html/public.html');
     });
   }
 });

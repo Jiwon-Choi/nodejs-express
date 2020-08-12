@@ -8,7 +8,7 @@ module.exports = function (program_info, partner_info, modal) {
       <meta name="viewport" content="width=device-width, initial-scale=1, shrinkf-to-fit=no" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <title>42 SEOUL Benefit program</title>
+      <title>3001 node</title>
       <link rel="icon" type="image/x-icon" href="assets/img/42.ico" />
       <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
       <!-- Google fonts-->
@@ -215,8 +215,6 @@ module.exports = function (program_info, partner_info, modal) {
       <script src="assets/mail/contact_me.js"></script>
       <!-- Core theme JS-->
       <script src="javascripts/scripts.js"></script>
-
-      <script src="javascripts/cadet.js"></script>
     
     </body>
     </html>
